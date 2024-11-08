@@ -1,5 +1,5 @@
-var fs = require('fs');//module to read files
+fs = require('fs');
  
-var data = fs.readdirSync('.');//read the contents of the directory the '.' means the current directory
+data = fs.readdirSync('c:/');
 console.log(data);
 console.log("this comes after data");
