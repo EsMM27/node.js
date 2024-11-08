@@ -1,9 +1,9 @@
-fs = require('fs');
+var fs = require('fs');
  
-function printData(err, data) 
+function printData(err, data) //callback function asynchronus function
 {
    console.log(data);
 }
  
-fs.readdir('c:/', printData);
+fs.readdir('.', printData);
 console.log("this comes after??");
